@@ -1,0 +1,37 @@
+
+.home-container {
+    background: linear-gradient(180deg, #f9a8d4, #fcd34d);
+
+    min-height: 100vh; 
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+  
+  .button-container {
+    margin: 20px;
+  }
+  
+  .add-recipe-button, .view-recipes-button {
+    background-color: #ff4400;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-recipe-button:hover, .view-recipes-button:hover {
+    background-color: #f67a4d;
+  }
+  
+  .add-recipe-button:focus, .view-recipes-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.4);
+  }
+  
