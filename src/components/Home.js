@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../Home.css'; // Optional, if you want to add custom styling
+import '../Home.css';
 
 const Home = () => {
   return (
