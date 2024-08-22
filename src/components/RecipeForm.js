@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import '../RecipeForm.css'; // Import custom CSS
+import '../RecipeForm.css';
 
 const RecipeForm = () => {
   const [formData, setFormData] = useState({
